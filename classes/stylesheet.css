@@ -1,0 +1,99 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register{
+  display: flex;
+  justify-content:left; 
+  margin-bottom:1%;
+  font-size: 4rem;
+}
+
+body{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  padding-top: 20px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+
+#form-logo{
+  font-family: 'Bodoni Moda', serif;
+  color: white;
+  font-size: 10rem;
+}
+
+form{
+  border: 2px solid #202020;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+input{
+  background: #2e2e2e;
+  border: none;
+  margin-bottom: 3%;
+  outline: none;
+  color: white;
+}
+
+.confirm{
+    margin-left:30%;
+    margin-top:3px;
+}
+  
+.butto{
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  
+}
+
+button{
+  background: #181818;
+  border: 1px solid #313030;
+  border-radius: 20%;
+  color: rgb(241, 233, 233);
+  width: fit-content;
+  align-items: center;
+}
+
+a{
+  font-family: 'roboto', sans-serif;
+  margin: 20px auto;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:gray;
+}
+button:hover {
+  background-color:rgb(75, 74, 74);
+  cursor: pointer;
+}
+
